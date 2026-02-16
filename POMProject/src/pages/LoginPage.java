@@ -11,7 +11,7 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
+	//New changes made
 	@FindBy(id = "Email")
 	WebElement emailIDBox;
 	
