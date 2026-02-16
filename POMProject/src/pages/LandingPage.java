@@ -11,6 +11,7 @@ public class LandingPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	//This change is done by me
 	@FindBy(linkText = "Log in")
 	WebElement loginLink;
 
